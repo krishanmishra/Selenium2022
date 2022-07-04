@@ -21,7 +21,7 @@ public class LoginPage {
 	private By forgotPasswordLink = By.linkText("Forgotten Password");
 	private By logoutSuccessMessage = By.cssSelector("div#content h1");
 	
-	private By krishan=By.xpath("krishan");
+	private By krishan=By.xpath("krishan11");
 	
 	// 2...create constuctor
 	public LoginPage(WebDriver driver) {
