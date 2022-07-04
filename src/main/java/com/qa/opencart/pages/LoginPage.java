@@ -20,7 +20,9 @@ public class LoginPage {
 	private By registerLink = By.linkText("Register");
 	private By forgotPasswordLink = By.linkText("Forgotten Password");
 	private By logoutSuccessMessage = By.cssSelector("div#content h1");
-
+	
+	private By krishan=By.xpath("krishan");
+	
 	// 2...create constuctor
 	public LoginPage(WebDriver driver) {
 		this.driver = driver;
