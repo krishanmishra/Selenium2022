@@ -8,7 +8,8 @@ public class KrishanNewFile {
       int i=10;
       System.out.println("print "+i);
 
-      
+      int stash=900;
+		System.out.print(stash);
 
 	}
 
